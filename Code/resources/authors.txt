@@ -1,0 +1,34 @@
+All three authors attend Thomas Jefferson High School for Science and Technology [as of 2014] in northern VA, USA.
+They created CRYPTICON as a Freshman year computer science class final project.
+Susanna and James, an item, enjoy hanging out in the Computer Systems Lab and plan on becoming Systems Admins.
+Much thanks to ahamilto for inspiration, and to TJ Computer Security Club for bringing steganography to our attention.
+
+>>Bug reports and general questions should be directed to 2017cryptico@gmail.com<<
+---------------------------------------------------------------------------------------
+Susanna Bradbury -- TJ '17
+Worked primarily on the encryption and decryption methods of CRYPTICON.
+Plans to pursue a career at the crossroads of computer science and neuroscience.
+Is addicted to Sapolsky lectures.
+
+email: 2017sbradbur@tjhsst.edu
+twitter handle: @CtrlShiftQ
+google plus: google.com/+SusannaBradbury
+----------------------------------------------------------------------------------------
+James Houghton -- TJ '17
+Worked primarily on the GUI as well as the integration of all classes and methods in CRYPTICON.
+Plans to make a difference.
+Has a tendency to use CRYPTICON as a tool for encrypting love letters to Susanna.
+
+email: 2017jhoughto@tjhsst.edu
+twitter handle: @UnemployedGoose
+google plus: google.com/+JamesHoughton
+self-hosted website: jameshoughton.tk
+----------------------------------------------------------------------------------------
+Pranav Ramanan -- TJ '17
+Worked primarily on the photo-editing methods for CRYPTICON.
+Plans to pursue a career in genetic engineering.
+Can always be seen nibbling cheese roti during class [except compsci because NO FOOD IN LAB].
+
+email: 2017pramanan@tjhsst.edu
+contact info: extremely lacking
+current state: off the grid

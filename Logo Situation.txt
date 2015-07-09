@@ -1,0 +1,10 @@
+I'm thinking possibly use CrypticonLogoAltered2 instead of a blank image when the program is opened... idk tho
+
+Also I think CrypticonLogoFewerPixelsShown would be good as a real logo in place of the java logo (if that's possible...)
+
+you can do that with .exes, set your own logo
+
+LMFAO we should totally encrypt the actual logo file in case any smart alec user wants to try decrypting it... it can say something funny.
+(An easter egg, as google [and perhaps others] would call it)
+
+(yeeees)

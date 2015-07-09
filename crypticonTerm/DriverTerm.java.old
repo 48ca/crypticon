@@ -1,0 +1,48 @@
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.util.Scanner;
+
+public class DriverTerm
+{
+	public static void main(String args[])
+	{
+		if(args.length == 3)
+		{
+			BufferedImage image;
+			try {
+				image = ImageIO.read( new File(args[1]));
+				if(args[0].toLowerCase().equals("encode"))
+				{
+					image = StegTerm.encrypt(image,args[2]);
+					String save = args[1];
+					if(!save.substring(save.lastIndexOf('.'),save.length()).equals("png")) save = save.substring(0,save.lastIndexOf('.'))+".png";
+					System.out.println("Saving encoded image as Encoded"+save);
+					File outputFile = new File("Encoded"+save);
+					ImageIO.write(image,"png",outputFile);
+				}
+				else if(args[0].toLowerCase().equals("decode"))
+				{
+					System.out.println(StegTerm.decrypt(image));
+				}
+			}
+			catch(Exception e) { System.out.println("Error reading file!"); System.exit(-1);}
+		}
+		else if(args.length == 2)
+		{
+			main(new String[]{args[0], args[1], ""});
+		}
+		else if(args.length > 3)
+		{
+			String argsString = args[2];
+			for(int i=3;i<args.length;i++)
+				argsString+=" "+args[i];
+			main(new String[]{args[0], args[1], argsString});
+		}
+		else
+		{
+			System.out.println("usage: command[encode/decode] file[PNG/JPG] String to encode");
+			System.exit(-1);
+		}
+	}
+}

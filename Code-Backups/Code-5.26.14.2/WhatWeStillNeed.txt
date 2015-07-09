@@ -1,0 +1,18 @@
+A single place where we list what we still need as we approach a stable point in the project would be nice to have
+-James
+
+James - Display.java
+	1. ImagePanel needs scroll bar(s) because right now it can't hold very large images
+	2. General error prevention
+		When someone presses cancel on an OptionPane, hide trace.
+	...
+
+Susanna - Steg.java
+	1.
+	2.
+	...
+
+Pranav - Tasks.java/Effects.java (Execution can occur in either/both file(s))
+	1.
+	2.
+	...

@@ -1,0 +1,18 @@
+A single place where we list what we still need as we approach a stable point in the project would be nice to have
+-James
+
+James - Display.java
+	1. 
+	2. General error prevention
+		When someone presses cancel on an OptionPane, hide trace.
+	...
+
+Susanna - Steg.java
+	1. Encoding length at the top of the image
+	2.
+	...
+
+Pranav - Effects.java
+	1. A list of the effects you're going to add (I made it so you can have up to seven)
+	2. Start working lol
+	...
